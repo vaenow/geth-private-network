@@ -1,7 +1,7 @@
 
 
 echo clean ./datadir/
-rm -rf datadir
-mkdir datadir
+rm -rf ./datadir
+mkdir ./datadir
 
-geth --datadir ./datadir/ init genesis.json
+geth init ../genesis.json --datadir ./datadir/ 

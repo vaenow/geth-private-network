@@ -1,4 +1,3 @@
 
 echo $1
-# geth --datadir ./datadir/ -networkid 15  --mine --minerthreads=4 --etherbase $1
-geth --datadir ./datadir/ --networkid 15  --mine --minerthreads=4 --unlock 0x4663a93f790d7112c8530d20614a8a31aa5c9acb 
+geth --datadir datadir --networkid 15 --rpc  --mine  --verbosity 3 --unlock 6f5a208114808a67c79eb3e7037be88d129b5a88 
